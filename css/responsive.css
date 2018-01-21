@@ -1,0 +1,275 @@
+@media (min-width: 280px) {
+  .head nav ul li {
+    display: none;
+  }
+
+  .head nav ul li.active {
+    display: block;
+  }
+
+  .head nav ul li {
+    padding-bottom: 42px;
+  }
+}
+@media (min-width: 451px) {
+  #mySidenav {
+    left: 0 !important;
+    visibility: visible !important;
+  }
+}
+@media (min-width: 768px) {
+  .head nav ul li {
+    padding: 25px 15px;
+    padding-bottom: 25px;
+    position: relative;
+    margin-right: 12px;
+    display: block;
+  }
+
+  .head nav ul li a {
+    width: 80px;
+  }
+
+  #admin_add_staff .head nav ul li a {
+    width: 100px;
+  }
+
+  #admin_add_client .head nav ul li a {
+    width: 105px;
+  }
+
+  #admin_restrict_client .head nav ul li a {
+    width: 126px;
+  }
+
+  #staff_home .head nav ul li a {
+    width: 120px;
+  }
+
+  #client_request_bank_draft .head nav ul li a {
+    width: 115px;
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    width: 90%;
+  }
+}
+@media (max-width: 991px) {
+  .head .col-xs-9 {
+    width: 100%;
+  }
+
+  .head p {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .head nav ul li {
+    padding: 20px 14px;
+    margin-right: 10px;
+  }
+
+  .head p {
+    display: block;
+  }
+
+  .client_add_beneficiary .body-content form p {
+    font-size: 13px;
+  }
+
+  .client_detailed_statements .bootstrap-select.btn-group:not(.input-group-btn),
+  .bootstrap-select.btn-group[class*="col-"] {
+    margin-bottom: 20px;
+  }
+
+  .client_settle_transfer_fees .body-content form p {
+    font-size: 14px;
+  }
+
+  .client_settle_transfer_fees .body-content .submit {
+    padding: 7px 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .head nav ul li {
+    margin-right: 30px;
+  }
+
+  .client_add_beneficiary .body-content form p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1500px) {
+  .head nav ul li {
+    margin-right: 90px;
+  }
+}
+@media (max-width: 992px) {
+  .col-sm-none {
+    display: none;
+  }
+
+  .col-sm-disply {
+    display: block;
+  }
+
+  .select-bg {
+    margin-bottom: 20px;
+  }
+
+  .body-content .top-heading p br {
+    display: block;
+  }
+
+  .top-heading, .center {
+    text-align: center;
+  }
+
+  .bootstrap-select.btn-group .dropdown-menu {
+    margin-top: -18px;
+  }
+
+  .fitt-border {
+    height: 15px;
+    background: #fff;
+    border: 1px solid #d2d4d4;
+    margin-top: 20px;
+  }
+
+  .FITT-content {
+    font-weight: 700;
+    background: none;
+  }
+
+  .bold {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .body-content h3 {
+    text-align: center;
+  }
+
+  #admin_change_password .body-content {
+    text-align: center;
+  }
+  #admin_change_password .body-content h3 {
+    display: none;
+  }
+  #admin_change_password .body-content h2 {
+    font-size: 26px;
+  }
+  #admin_change_password .body-content p br {
+    display: block;
+  }
+
+  #admin_login .body-content {
+    text-align: center;
+  }
+
+  .body-content h3 {
+    display: none;
+  }
+
+  .staff-home-body {
+    max-width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .sidebar .logo {
+    padding: 50px 0;
+  }
+
+  #admin_home .admin-logo {
+    padding-top: 50px;
+  }
+
+  .body-content h3 {
+    font-size: 16px;
+  }
+
+  .staff_bank_draft_requests .body-content .submit {
+    padding: 7px 16px;
+  }
+}
+@media (max-width: 450px) {
+  .sidebar .logo {
+    padding: 50px 30px;
+  }
+
+  #main {
+    background: #004158;
+    color: #fff;
+    display: block;
+  }
+
+  .sidenav {
+    height: 100% !important;
+    min-height: auto !important;
+    width: 250px;
+    position: fixed;
+    left: -100%;
+    z-index: 999999;
+    visibility: hidden;
+    top: 0;
+    background-color: #004158;
+    overflow-x: hidden;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    padding-top: 60px;
+  }
+
+  .sidenav > a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .sidenav > a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: block;
+  }
+
+  #main {
+    -webkit-transition: margin-left 0.5s;
+    -moz-transition: margin-left 0.5s;
+    -ms-transition: margin-left 0.5s;
+    -o-transition: margin-left 0.5s;
+    transition: margin-left 0.5s;
+    text-align: center;
+    padding-top: 42px;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .body-content h3 {
+    font-size: 20px;
+  }
+
+  .sidebar .welome {
+    display: block;
+  }
+}
